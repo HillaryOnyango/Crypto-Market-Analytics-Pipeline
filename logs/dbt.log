@@ -1,0 +1,63 @@
+[0m12:19:29.929608 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fe8ae8a510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fe8b5bcfe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fe8b5bd1f0>]}
+
+
+============================== 12:19:29.933421 | f1fb8b07-da0f-4501-aacd-6d3d3ec61514 ==============================
+[0m12:19:29.933421 [info ] [MainThread]: Running with dbt=1.11.7
+[0m12:19:29.934411 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'static_parser': 'True', 'write_json': 'True', 'quiet': 'False', 'no_print': 'None', 'debug': 'False', 'log_format': 'default', 'log_cache_events': 'False', 'partial_parse': 'True', 'target_path': 'None', 'empty': 'None', 'use_experimental_parser': 'False', 'printer_width': '80', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'invocation_command': 'dbt init dbt_crypto', 'log_path': 'logs', 'introspect': 'True', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'profiles_dir': '/home/hillar-onyango/.dbt'}
+[0m12:19:29.952332 [info ] [MainThread]: A project called dbt_crypto already exists here.
+[0m12:19:29.954299 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.12648614, "process_in_blocks": "192", "process_kernel_time": 0.165621, "process_mem_max_rss": "103456", "process_out_blocks": "8", "process_user_time": 2.230895}
+[0m12:19:29.955210 [debug] [MainThread]: Command `dbt init` succeeded at 12:19:29.955031 after 0.13 seconds
+[0m12:19:29.955922 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fe8aaf6c30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fe8a5df710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74fe8a808b30>]}
+[0m12:19:29.956670 [debug] [MainThread]: Flushing usage events
+[0m12:19:30.959279 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:22:49.179623 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d79c6dabce0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d79c8287740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d79c6dab470>]}
+
+
+============================== 12:22:49.185262 | 30c478cc-14c8-4bb2-99e8-d92f491a3a5b ==============================
+[0m12:22:49.185262 [info ] [MainThread]: Running with dbt=1.11.7
+[0m12:22:49.186388 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'debug': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'invocation_command': 'dbt init dbt_crypto', 'fail_fast': 'False', 'static_parser': 'True', 'quiet': 'False', 'empty': 'None', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'partial_parse': 'True', 'log_format': 'default', 'write_json': 'True', 'warn_error': 'None', 'printer_width': '80', 'no_print': 'None', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'version_check': 'True', 'introspect': 'True', 'target_path': 'None', 'profiles_dir': '/home/hillar-onyango/.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m12:22:49.203256 [debug] [MainThread]: Starter project path: /home/hillar-onyango/Desktop/Crypto-Market-Analytics-Pipeline-main/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m12:22:49.207278 [info ] [MainThread]: 
+Your new dbt project "dbt_crypto" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:22:49.208189 [info ] [MainThread]: Setting up your profile.
+[0m12:26:04.468379 [info ] [MainThread]: Profile dbt_crypto written to /home/hillar-onyango/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:26:04.472497 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 195.38104, "process_in_blocks": "8", "process_kernel_time": 0.191851, "process_mem_max_rss": "107700", "process_out_blocks": "88", "process_user_time": 2.581998}
+[0m12:26:04.475003 [debug] [MainThread]: Command `dbt init` succeeded at 12:26:04.474495 after 195.38 seconds
+[0m12:26:04.477251 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d79c699b620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d79c6332360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d79c626e600>]}
+[0m12:26:04.479642 [debug] [MainThread]: Flushing usage events
+[0m12:26:05.399658 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:26:32.137632 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7041b4f30410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7041b4f32ba0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7041b4f325a0>]}
+
+
+============================== 12:26:32.141336 | 306dac8b-c36f-432c-b3a0-4b002bdaf036 ==============================
+[0m12:26:32.141336 [info ] [MainThread]: Running with dbt=1.11.7
+[0m12:26:32.142274 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'log_path': 'logs', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'version_check': 'True', 'debug': 'False', 'write_json': 'True', 'profiles_dir': '/home/hillar-onyango/.dbt', 'partial_parse': 'True', 'printer_width': '80', 'use_colors': 'True', 'log_format': 'default', 'indirect_selection': 'eager', 'no_print': 'None', 'quiet': 'False', 'static_parser': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'warn_error': 'None', 'empty': 'None', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'fail_fast': 'False'}
+[0m12:26:32.160988 [info ] [MainThread]: dbt version: 1.11.7
+[0m12:26:32.161827 [info ] [MainThread]: python version: 3.12.3
+[0m12:26:32.162583 [info ] [MainThread]: python path: /home/hillar-onyango/Desktop/Crypto-Market-Analytics-Pipeline-main/venv/bin/python3
+[0m12:26:32.163516 [info ] [MainThread]: os info: Linux-6.17.0-19-generic-x86_64-with-glibc2.39
+[0m12:26:32.255500 [info ] [MainThread]: Using profiles dir at /home/hillar-onyango/.dbt
+[0m12:26:32.256243 [info ] [MainThread]: Using profiles.yml file at /home/hillar-onyango/.dbt/profiles.yml
+[0m12:26:32.256799 [info ] [MainThread]: Using dbt_project.yml file at /home/hillar-onyango/Desktop/Crypto-Market-Analytics-Pipeline-main/dbt_project.yml
+[0m12:26:32.257488 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m12:26:32.258724 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.20972672, "process_in_blocks": "0", "process_kernel_time": 0.19059, "process_mem_max_rss": "108152", "process_out_blocks": "0", "process_user_time": 2.307039}
+[0m12:26:32.259934 [debug] [MainThread]: Command `dbt debug` failed at 12:26:32.259729 after 0.21 seconds
+[0m12:26:32.260784 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7041b59a8d40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7041b4f33ec0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7041b5274260>]}
+[0m12:26:32.261426 [debug] [MainThread]: Flushing usage events
+[0m12:26:33.168609 [debug] [MainThread]: An error was encountered while trying to flush usage events
