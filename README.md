@@ -105,7 +105,7 @@ Which trading pair has the largest price movement?
 What is the 7-day rolling average price trend?
 
 **🛠️ Project Structure**
-
+```
 crypto-analytics-pipeline/
 │
 ├── ingestion/
@@ -131,3 +131,13 @@ crypto-analytics-pipeline/
 ├── docker-compose.yml
 ├── requirements.txt
 └── README.md
+```
+<img width="1331" height="276" alt="image" src="https://github.com/user-attachments/assets/7f3c82cc-b158-42e0-ab20-6d6755d1932f" />
+
+<img width="1875" height="699" alt="image" src="https://github.com/user-attachments/assets/c76ce761-44df-4b99-92ab-b0537073dd41" />
+
+
+
+<img width="1875" height="699" alt="image" src="https://github.com/user-attachments/assets/5efb1761-7711-40fc-b9da-07a3da594432" />
+
+
